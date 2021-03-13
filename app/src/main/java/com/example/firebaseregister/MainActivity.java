@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
                 register();
             }
         });
-         }
+    }
 
     private void register() {
         auth.createUserWithEmailAndPassword(email.getText().toString(),password.getText().toString())
